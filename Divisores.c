@@ -13,10 +13,13 @@ int main(){
     scanf("%d",&num);
 
     for (i=1;i<=num;i++){    
-    div=num/i;
+    div=num%i;
         if (div !=0)
         {
-            printf("El número %d no es divisor exacto de %d\n", i, num);
+            
+        }
+        else{
+            printf("El número %d es divisor exacto de %d\n", i, num);
         }
     }
 }
