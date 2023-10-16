@@ -11,7 +11,10 @@ int main(){
     printf("Serie de Fibonacci hasta llegar o sobrepasar 10,000:\n");
 
     while (numeroActual <= 10000) {
-        printf("%d ", numeroActual);
         
+        printf("%d ", numeroActual);
+        int temp = numeroSiguiente;
+        numeroSiguiente = numeroActual + numeroSiguiente;
+        numeroActual = temp;
         }
 }
