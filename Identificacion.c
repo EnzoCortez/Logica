@@ -19,6 +19,12 @@ int main() {
                 break;
             }
             numero = numero / 10;
-    }
+    }        if (tieneDigito1) {
+            printf("El número contiene el dígito 1.\n");
+        }
+        } else {
+            printf("El número no contiene el dígito 1.\n");
+        }
+
 
 }
