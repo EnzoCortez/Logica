@@ -10,6 +10,8 @@ int main(){
     while (numero != 0) {
         digito = numero % 10; // Obtiene el último dígito
         suma += digito; // Agrega el dígito a la suma total
+        numero = numero / 10;
         }
+
 
 }
