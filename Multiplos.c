@@ -9,7 +9,11 @@ int main() {
     printf("Ingrese un número entero: ");
     scanf("%d", &numero);
 
-    printf("Los componentes numéricos de %d son: ", numero);
+    if (numero < 0) {
+        numero = -numero; 
+    }
+
+    printf("Los componentes numéricos de %d son: ", numero); // Calculamos los componentes del numro ingresado por teclado
     for (int i = 1; i <= numero; i++) {
         if (numero % i == 0) {
             printf("%d ", i);
