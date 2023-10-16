@@ -9,5 +9,9 @@ int main() {
     printf("Ingrese un número entero de 3 dígitos: ");
     scanf("%d", &numero);
     
-    return 0;
+    if (numero >= 100 && numero <= 999) {
+
+        
+    }
+
 }
