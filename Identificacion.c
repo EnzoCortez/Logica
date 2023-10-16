@@ -10,8 +10,15 @@ int main() {
     scanf("%d", &numero);
     
     if (numero >= 100 && numero <= 999) {
-
-        
+        int digito;
+        int tieneDigito1 = 0;
+        while (numero > 0) {
+            digito = numero % 10;
+            if (digito == 1) {
+                tieneDigito1 = 1;
+                break;
+            }
+            numero = numero / 10;
     }
 
 }
