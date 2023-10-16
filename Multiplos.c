@@ -9,5 +9,12 @@ int main() {
     printf("Ingrese un número entero: ");
     scanf("%d", &numero);
 
-    return 0;
+    printf("Los componentes numéricos de %d son: ", numero);
+    for (int i = 1; i <= numero; i++) {
+        if (numero % i == 0) {
+            printf("%d ", i);
+        }
+    }
+    printf("\n");
+
 }
