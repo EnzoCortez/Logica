@@ -13,5 +13,6 @@ int main(){
         numero = numero / 10;
         }
 
+    printf("La suma de los dígitos es: %d\n", suma);
 
 }
