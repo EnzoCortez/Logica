@@ -7,4 +7,7 @@ generar la serie de Fibonacci hasta llegar o sobrepasar el número 10000.*/
 int main(){
     int numeroActual = 0;
     int numeroSiguiente = 1;
+
+    printf("Serie de Fibonacci hasta llegar o sobrepasar 10,000:\n");
+
 }
