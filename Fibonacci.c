@@ -13,9 +13,10 @@ int main(){
     while (numeroActual <= 10000) {
 
         printf("%d ", numeroActual);
-        
+
         int temp = numeroSiguiente;
         numeroSiguiente = numeroActual + numeroSiguiente;
         numeroActual = temp;
         }
+    printf("\n");
 }
